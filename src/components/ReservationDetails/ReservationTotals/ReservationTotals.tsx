@@ -19,7 +19,7 @@ const ReservationTotals: React.FC<TypeReservationTotalsProps> = (props: TypeRese
         <li className={styleClasses['reservation-details__totals']}>
             <div className={styleClasses['reservation-details__totals__item']}>
                 <span className={styleClasses['reservation-details__totals__title']}>Room price</span>
-                <span className={styleClasses['reservation-details__totals__value']}>{totals.room} TL</span>
+                <span className={styleClasses['reservation-details__totals__value']}>{totals.room} INR</span>
             </div>
             <div className={styleClasses['reservation-details__totals__item']}>
                 <span className={styleClasses['reservation-details__totals__title']}>Price impact ratio</span>
