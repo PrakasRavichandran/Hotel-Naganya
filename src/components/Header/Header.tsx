@@ -12,7 +12,7 @@ type TypeHeader = {
 const Header: React.FC<TypeHeader> = (props: TypeHeader) => (
     <header className={styleClasses['header']}>
         <div className={styleClasses['header__logo']}>
-            <span className={styleClasses['header__logo__title']}>Hotel Naganya</span>
+            <<img className={styleClasses['header__logo__svg']} src="public\media\favicons\logo.svg"/>
             <span className={styleClasses['header__logo__slogan']}>Reservation System</span>
         </div>
         {props.activeStep !== 0 && (
