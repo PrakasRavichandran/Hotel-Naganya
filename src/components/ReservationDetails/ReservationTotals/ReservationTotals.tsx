@@ -32,7 +32,7 @@ const ReservationTotals: React.FC<TypeReservationTotalsProps> = (props: TypeRese
                         {cart.days} {cart.days && +cart.days > 1 ? 'Days' : 'Day'}
                     </span>
                 </span>
-                <span className={styleClasses['reservation-details__totals__value']}>{totals.total.toFixed(2)} TL</span>
+                <span className={styleClasses['reservation-details__totals__value']}>{totals.total.toFixed(2)} INR</span>
             </div>
             {coupon.code && (
                 <div className={styleClasses['reservation-details__totals__item']}>
@@ -40,14 +40,14 @@ const ReservationTotals: React.FC<TypeReservationTotalsProps> = (props: TypeRese
                         Discount <span>({coupon.code})</span>
                     </span>
                     <span className={styleClasses['reservation-details__totals__value']}>
-                        -{discountAmount.toFixed(2)} TL
+                        -{discountAmount.toFixed(2)} INR
                     </span>
                 </div>
             )}
             <div className={styleClasses['reservation-details__totals__total']}>
                 <span className={styleClasses['reservation-details__totals__title']}>Total amount</span>
                 <span className={styleClasses['reservation-details__totals__value']}>
-                    {(totals.final - discountAmount).toFixed(2)} TL
+                    {(totals.final - discountAmount).toFixed(2)} INR
                 </span>
             </div>
         </li>
