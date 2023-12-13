@@ -1,15 +1,6 @@
 {
     "name": "react-hotel-reservation-system",
     "version": "0.1.0",
-    "author": {
-        "name": "Obada Qawwas",
-        "email": "info@onyxdev.net",
-        "url": "https://onyxdev.net"
-    },
-    "homepage": "https://onyxdev.net/files/battlefield/react/react-hotel-reservation-system/",
-    "engines": {
-        "node": "^14.17.0"
-    },
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
