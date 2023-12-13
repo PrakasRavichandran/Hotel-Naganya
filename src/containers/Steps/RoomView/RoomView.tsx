@@ -52,7 +52,7 @@ const RoomView: React.FC<TypeReservationStep> = (props: TypeReservationStep) => 
                         </span>
                         <span>
                             {cart.days && cart.adults && getTotalPrice(type.price, +cart.days, +cart.adults).toFixed(2)}{' '}
-                            TL
+                            INR
                         </span>
                     </>
                 ),
