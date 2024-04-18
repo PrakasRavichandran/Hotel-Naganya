@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/PrakasRavichandran/Hotel-Naganya/054cdb178071335a7cc750f051c882cfb73b7236/public/media/favicons/logo.svg" width="144" align="right" hspace="0" />
+<img src="https://raw.githubusercontent.com/PrakasRavichandran/Hotel-Naganya/054cdb178071335a7cc750f051c882cfb73b7236/public/media/favicons/logo.svg" width="400" align="right" hspace="0" />
 
 ✨ &nbsp; Hotel Naganya 🚀
 ======
