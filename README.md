@@ -1,4 +1,7 @@
-# React.js Hotel Reservation System 🚀
+<img src="https://raw.githubusercontent.com/PrakasRavichandran/Hotel-Naganya/054cdb178071335a7cc750f051c882cfb73b7236/public/media/favicons/logo.svg" width="144" align="right" hspace="0" />
+
+✨ &nbsp; Hotel Naganya 🚀
+======
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).<br />
 The project includes extra packages and improved file structure.
